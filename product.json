@@ -47,9 +47,6 @@
     "^https:\\/\\/github\\.com\\/[^/]+\\/[^/]+\\/(actions\\/)?workflows\\/.*badge\\.svg"
   ],
   "extensionEnabledApiProposals": {
-    "ms-azuretools.vscode-dev-azurecloudshell": [
-      "contribEditSessions"
-    ],
     "ms-vscode.vscode-selfhost-test-provider": [
       "testObserver",
       "testRelatedCode"
@@ -228,7 +225,6 @@
       "aiRelatedInformation",
       "codeActionAI",
       "findTextInFiles",
-      "findTextInFiles2",
       "textSearchProvider",
       "textSearchProvider2",
       "activeComment",
@@ -252,9 +248,7 @@
       "inlineCompletionsAdditions",
       "chatReferenceBinaryData",
       "languageModelSystem",
-      "languageModelCapabilities",
-      "languageModelDataPart",
-      "chatStatusItem"
+      "languageModelCapabilities"
     ],
     "GitHub.remotehub": [
       "contribRemoteHelp",
