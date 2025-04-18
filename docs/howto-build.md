@@ -15,6 +15,7 @@
 ## <a id="dependencies"></a>Dependencies
 
 - node 20.14
+- yarn
 - jq
 - git
 - python3 3.11
@@ -96,7 +97,7 @@ review-tools.snap-review --allow-classic codium*.snap
 - run `./dev/update_patches.sh`
 - when the script pauses at `Press any key when the conflict have been resolved...`, open `vscode` directory in **VSCodium**
 - fix all the `*.rej` files
-- run `npm run watch`
+- run `yarn watch`
 - run `./script/code.sh` until everything is ok
 - press any key to continue the script `update_patches.sh`
 
@@ -107,7 +108,7 @@ review-tools.snap-review --allow-classic codium*.snap
 - revert all changes
 - run `git apply --reject ../patches/<name>.patch`
 - fix all the `*.rej` files
-- run `npm run watch`
+- run `yarn watch`
 - run `./script/code.sh` until everything is ok
 - run `git diff > ../patches/<name>.patch`
 
