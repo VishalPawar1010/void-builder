@@ -24,7 +24,7 @@ fi
 
 # Void deleted a lot of code here because a lot of the ifs were not used
 
-VOID_BRANCH="main"
+VOID_BRANCH="rebase"
 echo "Cloning void ${VOID_BRANCH}..."
 
 mkdir -p vscode
